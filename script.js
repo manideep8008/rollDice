@@ -43,7 +43,7 @@ btnHold.addEventListener('click',function(){
     if(playing===true){
         scores[activeplayer]+=curr;
         document.getElementById(`score--${activeplayer}`).textContent=scores[activeplayer];
-        if(scores[activeplayer]<10){
+        if(scores[activeplayer]<100){
             switchplayer();
         }
         else{
